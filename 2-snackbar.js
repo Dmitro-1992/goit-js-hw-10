@@ -1,2 +1,2 @@
-import"./assets/styles-DD3qoKza.js";console.log("Hello, snackbar!");
+import"./assets/styles-DjlSk7es.js";import{i as o}from"./assets/vendor-BbbuE1sJ.js";console.log("Hello, snackbar!");const s=document.querySelector(".form");s.addEventListener("submit",i=>{i.preventDefault();const t=Number(s.elements.delay.value),m=s.elements.state.value;new Promise((e,r)=>{setTimeout(()=>{m==="fulfilled"?e(t):r(t)},t)}).then(e=>{o.success({message:`✅ Fulfilled promise in ${e}ms`,position:"topRight"})}).catch(e=>{o.error({message:`❌ Rejected promise in ${e}ms`,position:"topRight"})}),s.reset()});
 //# sourceMappingURL=2-snackbar.js.map
