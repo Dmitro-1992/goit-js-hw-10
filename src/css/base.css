@@ -74,3 +74,90 @@ main:has(.back-link) {
 .nav-link.active::after {
   background: #747bff;
 }
+.main-title {
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+  color: #747bff;
+}
+.timer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#datetime-picker {
+  padding: 10px;
+  font-size: 16px;
+}
+[data-start] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #747bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+[data-start]:hover,
+[data-start]:focus {
+  background-color: #5a63d8;
+  color: cyan;
+}
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.value {
+  font-size: 48px;
+  font-weight: 700;
+  color: #747bff;
+}
+.label {
+  font-size: 14px;
+  color: #242424;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.form-label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #242424;
+}
+.form-input {
+  padding: 10px;
+  font-size: 16px;
+}
+.form-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #747bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.form-button:hover,
+.form-button:focus {
+  background-color: #5a63d8;
+  color: cyan;
+}
